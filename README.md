@@ -1,2 +1,2 @@
 # Ulangan_Harian
-Ulangan harian Berbasis Nadroid menggunakan database MySQL
+Ulangan harian Berbasis Android menggunakan database MySQL
