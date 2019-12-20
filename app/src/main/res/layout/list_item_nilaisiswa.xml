@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    
+android:orientation="vertical"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backroundcolor"
+        android:layout_margin="10dp">>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/N"
+
+                android:text="NIS" />
+            <TextView
+                android:id="@+id/NIS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/N"
+                android:layout_toRightOf="@+id/N"
+                />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/m"
+                android:layout_height="wrap_content"
+                android:text="NAMA" />
+            <TextView
+                android:id="@+id/NAMA"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/m"
+                android:layout_toRightOf="@+id/m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/b"
+
+                android:layout_height="wrap_content"
+                android:text="BAHASA INDONESIA" />
+            <TextView
+                android:id="@+id/BAHASA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/b"
+                android:layout_toRightOf="@+id/b"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/i"
+                android:layout_height="wrap_content"
+                android:text="BAHASA INGGRIS" />
+
+
+            <TextView
+                android:id="@+id/INGGRIS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/i"
+                android:layout_toRightOf="@+id/i"
+                android:layout_marginTop="4dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/mt"
+                android:layout_height="wrap_content"
+                android:text="MATEMATIKA" />
+            <TextView
+                android:id="@+id/MTK"
+                android:layout_toEndOf="@+id/mt"
+                android:layout_toRightOf="@+id/mt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/ip"
+                android:layout_height="wrap_content"
+                android:text="IPA" />
+            <TextView
+                android:id="@+id/IPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/ip"
+                android:layout_toRightOf="@+id/ip"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:id="@+id/e"
+                android:layout_height="wrap_content"
+                android:text="EKONOMI" />
+            <TextView
+                android:id="@+id/EKO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/e"
+                android:layout_toRightOf="@+id/e"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/ips"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="IPS" />
+            <TextView
+                android:id="@+id/IPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/ips"
+                android:layout_toRightOf="@+id/ips"
+               />
+        </LinearLayout>
+
+
+        </LinearLayout>
+</android.support.v7.widget.CardView> </LinearLayout>

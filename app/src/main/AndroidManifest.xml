@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.afres">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="MANIS"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bahasa"
+            android:label="Soal Bahasa Indonesia"
+            />
+        <activity android:name=".MainActivity"
+            android:label="Home MANIS"
+            />
+        <activity android:name=".ekonomi"
+            android:label="Soal Ekonomi"
+            />
+        <activity android:name=".Ips"
+            android:label="Soal Ips"
+            />
+        <activity android:name=".Ipa"
+            android:label="Soal Ipa"/>
+        <activity android:name=".Mtk"
+            android:label="Soal Matematika"
+            />
+        <activity android:name=".inggris"
+            android:label="Soal Bahasa Inggris"
+            />
+        <activity android:name=".LihatSiswa"
+            android:label="Lihat Daftar Siswa"
+            />
+        <activity android:name=".PilihTampilSoal"
+            android:label="Lihat Soal"
+            />
+        <activity android:name=".TampilSoal"
+            android:label="Lihat Soal"/>
+        <activity android:name=".TampilSatu"
+            android:label="Lihat Soal"
+            />
+        <activity android:name=".HomeGuru"
+            android:label="Home Guru"
+            />
+        <activity android:name=".LoginActivityGuru"
+            android:label="LoginUser Guru"
+            />
+        <activity android:name=".BuatSoal"
+            android:label="Membuat Soal"
+            />
+        <activity android:name=".LihatNilai"
+            android:label="Lihat Nilai Siswa"
+            />
+        <activity android:name=".SiswaLihatProfil"
+            android:label="Lihat Profil Siswa"
+            />
+        <activity android:name=".Menu"
+
+            android:label="Home Manis"/>
+        <activity android:name=".SiswaLihatNilai"
+            android:label="Lihat Nilai"
+            />
+        <activity android:name=".LoginActivity"
+            android:label="LoginUser Siswa"
+            />
+        <activity android:name=".EditUser"
+            android:label="Edit Profil"
+            ></activity>
+    </application>
+
+</manifest>
